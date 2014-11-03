@@ -183,7 +183,7 @@ namespace LicensingControls
                 case "Laptop": return 2;
                 case "Server": return 3;
                 case "Virtual Machine": return 4;
-                case "Embedded Machine": return 5;
+                case "Embedded": return 5;
             }
         }
 

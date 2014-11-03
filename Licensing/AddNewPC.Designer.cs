@@ -35,7 +35,7 @@
             // 
             // bSubmit
             // 
-            this.bSubmit.Location = new System.Drawing.Point(10, 119);
+            this.bSubmit.Location = new System.Drawing.Point(216, 86);
             this.bSubmit.Name = "bSubmit";
             this.bSubmit.Size = new System.Drawing.Size(75, 23);
             this.bSubmit.TabIndex = 1;
@@ -45,7 +45,7 @@
             // 
             // bCancel
             // 
-            this.bCancel.Location = new System.Drawing.Point(305, 119);
+            this.bCancel.Location = new System.Drawing.Point(305, 86);
             this.bCancel.Name = "bCancel";
             this.bCancel.Size = new System.Drawing.Size(75, 23);
             this.bCancel.TabIndex = 2;
@@ -55,7 +55,7 @@
             // 
             // ucNewPCControl
             // 
-            this.ucNewPCControl.Location = new System.Drawing.Point(10, 12);
+            this.ucNewPCControl.Location = new System.Drawing.Point(10, 8);
             this.ucNewPCControl.Name = "ucNewPCControl";
             this.ucNewPCControl.Size = new System.Drawing.Size(370, 101);
             this.ucNewPCControl.TabIndex = 3;
@@ -64,10 +64,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(392, 150);
-            this.Controls.Add(this.ucNewPCControl);
+            this.ClientSize = new System.Drawing.Size(392, 115);
             this.Controls.Add(this.bCancel);
             this.Controls.Add(this.bSubmit);
+            this.Controls.Add(this.ucNewPCControl);
             this.Name = "AddNewPC";
             this.Text = "Add a new PC to the database";
             this.ResumeLayout(false);

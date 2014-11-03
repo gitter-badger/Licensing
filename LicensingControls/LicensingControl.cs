@@ -25,6 +25,8 @@ namespace LicensingControls
 
         public void PopulateFields(string strAsset)
         {
+            ClearCheckBoxes(); // Removes the state of in_use and is_main_machine
+
             objPC.Populate(strAsset);
 
             tbAsset.Text = objPC.hs_tag;
@@ -47,7 +49,22 @@ namespace LicensingControls
             dtPurchaseDate.Value = objPC.purchase_date;
             dtWarrantyEnd.Value = objPC.warranty_end_date;
 
+            // Attempting to get the control working properly
+            /*
+            if (objPC.is_main_machine == true) chbMainMachine.Checked = true;
+            if (objPC.in_use == true) chbInUse.Checked = true;
 
+            switch (objPC.pc_type)
+            {
+                default: cbPCType.SelectedIndex = 0; break;
+                case 1: cbPCType.SelectedIndex = 0; break;
+                case 2: cbPCType.SelectedIndex = 1; break;
+                case 3: cbPCType.SelectedIndex = 2; break;
+                case 4: cbPCType.SelectedIndex = 3; break;
+                case 5: cbPCType.SelectedIndex = 4; break;
+            }
+            // cbPCType.Text = objPC.pc_type.ToString();
+            */
 
             // Load ComboBox Information
             objCommon.LoadAllOperatingSystems(cbOEMOSID);
@@ -92,5 +109,10 @@ namespace LicensingControls
             objCommon.GetListOfMachineNames(cbHostPC);
         }
 
+        private void ClearCheckBoxes()
+        {
+            chbInUse.Checked = false;
+            chbMainMachine.Checked = false;
+        }
     }
 }

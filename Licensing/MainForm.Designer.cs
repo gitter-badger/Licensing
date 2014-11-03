@@ -54,67 +54,97 @@
             // 
             // bSave
             // 
+            this.bSave.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bSave.FlatAppearance.BorderSize = 0;
+            this.bSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bSave.Location = new System.Drawing.Point(394, 636);
             this.bSave.Name = "bSave";
             this.bSave.Size = new System.Drawing.Size(75, 39);
             this.bSave.TabIndex = 8;
             this.bSave.Text = "Save";
-            this.bSave.UseVisualStyleBackColor = true;
+            this.bSave.UseVisualStyleBackColor = false;
             // 
             // bAddNewPC
             // 
+            this.bAddNewPC.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bAddNewPC.FlatAppearance.BorderSize = 0;
+            this.bAddNewPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAddNewPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bAddNewPC.Location = new System.Drawing.Point(313, 690);
             this.bAddNewPC.Name = "bAddNewPC";
             this.bAddNewPC.Size = new System.Drawing.Size(75, 42);
             this.bAddNewPC.TabIndex = 9;
             this.bAddNewPC.Text = "Add New PC";
-            this.bAddNewPC.UseVisualStyleBackColor = true;
+            this.bAddNewPC.UseVisualStyleBackColor = false;
+            this.bAddNewPC.Click += new System.EventHandler(this.bAddNewPC_Click);
             // 
             // bAddDBSoftware
             // 
+            this.bAddDBSoftware.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bAddDBSoftware.FlatAppearance.BorderSize = 0;
+            this.bAddDBSoftware.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAddDBSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bAddDBSoftware.Location = new System.Drawing.Point(394, 690);
             this.bAddDBSoftware.Name = "bAddDBSoftware";
             this.bAddDBSoftware.Size = new System.Drawing.Size(75, 42);
             this.bAddDBSoftware.TabIndex = 10;
             this.bAddDBSoftware.Text = "Add DB Software";
-            this.bAddDBSoftware.UseVisualStyleBackColor = true;
+            this.bAddDBSoftware.UseVisualStyleBackColor = false;
+            this.bAddDBSoftware.Click += new System.EventHandler(this.bAddDBSoftware_Click);
             // 
             // bModDBSoftware
             // 
+            this.bModDBSoftware.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bModDBSoftware.FlatAppearance.BorderSize = 0;
+            this.bModDBSoftware.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bModDBSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bModDBSoftware.Location = new System.Drawing.Point(475, 690);
             this.bModDBSoftware.Name = "bModDBSoftware";
             this.bModDBSoftware.Size = new System.Drawing.Size(75, 42);
             this.bModDBSoftware.TabIndex = 11;
             this.bModDBSoftware.Text = "Modify DB Software";
-            this.bModDBSoftware.UseVisualStyleBackColor = true;
+            this.bModDBSoftware.UseVisualStyleBackColor = false;
             // 
             // bDelDBSoftware
             // 
+            this.bDelDBSoftware.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bDelDBSoftware.FlatAppearance.BorderSize = 0;
+            this.bDelDBSoftware.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bDelDBSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bDelDBSoftware.Location = new System.Drawing.Point(556, 690);
             this.bDelDBSoftware.Name = "bDelDBSoftware";
             this.bDelDBSoftware.Size = new System.Drawing.Size(75, 42);
             this.bDelDBSoftware.TabIndex = 12;
             this.bDelDBSoftware.Text = "Delete DB Software";
-            this.bDelDBSoftware.UseVisualStyleBackColor = true;
+            this.bDelDBSoftware.UseVisualStyleBackColor = false;
             this.bDelDBSoftware.Click += new System.EventHandler(this.bDelDBSoftware_Click);
             // 
             // bThisPC
             // 
+            this.bThisPC.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bThisPC.FlatAppearance.BorderSize = 0;
+            this.bThisPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bThisPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bThisPC.Location = new System.Drawing.Point(475, 636);
             this.bThisPC.Name = "bThisPC";
             this.bThisPC.Size = new System.Drawing.Size(75, 39);
             this.bThisPC.TabIndex = 13;
             this.bThisPC.Text = "Select This PC";
-            this.bThisPC.UseVisualStyleBackColor = true;
+            this.bThisPC.UseVisualStyleBackColor = false;
             // 
             // bPCSoftware
             // 
+            this.bPCSoftware.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bPCSoftware.FlatAppearance.BorderSize = 0;
+            this.bPCSoftware.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bPCSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bPCSoftware.Location = new System.Drawing.Point(556, 636);
             this.bPCSoftware.Name = "bPCSoftware";
             this.bPCSoftware.Size = new System.Drawing.Size(75, 39);
             this.bPCSoftware.TabIndex = 14;
             this.bPCSoftware.Text = "Manage PC Software";
-            this.bPCSoftware.UseVisualStyleBackColor = true;
+            this.bPCSoftware.UseVisualStyleBackColor = false;
             // 
             // ucViewPCSWControl
             // 
@@ -133,12 +163,17 @@
             // 
             // bClose
             // 
+            this.bClose.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bClose.FlatAppearance.BorderSize = 0;
+            this.bClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bClose.Location = new System.Drawing.Point(637, 690);
             this.bClose.Name = "bClose";
             this.bClose.Size = new System.Drawing.Size(75, 42);
             this.bClose.TabIndex = 15;
             this.bClose.Text = "Close";
-            this.bClose.UseVisualStyleBackColor = true;
+            this.bClose.UseVisualStyleBackColor = false;
+            this.bClose.Click += new System.EventHandler(this.bClose_Click);
             // 
             // MainForm
             // 

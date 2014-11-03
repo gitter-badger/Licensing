@@ -42,31 +42,37 @@
             // 
             // bSubmit
             // 
-            this.bSubmit.Location = new System.Drawing.Point(12, 80);
+            this.bSubmit.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bSubmit.FlatAppearance.BorderSize = 0;
+            this.bSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bSubmit.Location = new System.Drawing.Point(259, 60);
             this.bSubmit.Name = "bSubmit";
             this.bSubmit.Size = new System.Drawing.Size(75, 23);
             this.bSubmit.TabIndex = 1;
             this.bSubmit.Text = "Submit";
-            this.bSubmit.UseVisualStyleBackColor = true;
+            this.bSubmit.UseVisualStyleBackColor = false;
             this.bSubmit.Click += new System.EventHandler(this.bSubmit_Click);
             // 
             // bCancel
             // 
-            this.bCancel.Location = new System.Drawing.Point(340, 80);
+            this.bCancel.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.bCancel.FlatAppearance.BorderSize = 0;
+            this.bCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bCancel.Location = new System.Drawing.Point(340, 60);
             this.bCancel.Name = "bCancel";
             this.bCancel.Size = new System.Drawing.Size(75, 23);
             this.bCancel.TabIndex = 2;
             this.bCancel.Text = "Cancel";
-            this.bCancel.UseVisualStyleBackColor = true;
+            this.bCancel.UseVisualStyleBackColor = false;
             this.bCancel.Click += new System.EventHandler(this.bCancel_Click);
             // 
             // AddNewSoftware
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 110);
-            this.Controls.Add(this.bCancel);
+            this.ClientSize = new System.Drawing.Size(420, 88);
             this.Controls.Add(this.bSubmit);
+            this.Controls.Add(this.bCancel);
             this.Controls.Add(this.ucNewSoftwareControl);
             this.Name = "AddNewSoftware";
             this.Text = "Add a new Software";

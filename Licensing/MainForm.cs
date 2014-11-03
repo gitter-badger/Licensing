@@ -43,5 +43,22 @@ namespace Licensing
         {
 
         }
+
+        private void bAddNewPC_Click(object sender, EventArgs e)
+        {
+            AddNewPC AddNewPC = new AddNewPC();
+            AddNewPC.ShowDialog();
+        }
+
+        private void bAddDBSoftware_Click(object sender, EventArgs e)
+        {
+            AddNewSoftware AddNewSoftware = new AddNewSoftware();
+            AddNewSoftware.ShowDialog();
+        }
+
+        private void bClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
